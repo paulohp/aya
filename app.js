@@ -33,8 +33,9 @@ app.get('/', function (req, res) {
 });
 
 
-server.listen(port, function(){
-  console.log('Application are running on port' + port);
+server.listen(port, ipaddress, function() {
+    console.log('%s: Node server started on %s:%d ...',
+                Date(Date.now() ), ipaddress, port);
 });
 
 
