@@ -1,35 +1,33 @@
 {
-  "name": "OpenShift-Sample-App",
+  "name": "andyourass",
   "version": "1.0.0",
-  "description": "OpenShift Sample Application",
-  "keywords": [
-    "OpenShift",
-    "Node.js",
-    "application",
-    "openshift"
-  ],
+  "description": "And Your Ass App",
   "author": {
-    "name": "OpenShift",
-    "email": "ramr@example.org",
-    "url": "http://www.openshift.com/"
+    "name": "Paulo Henrique Pires",
+    "email": "eu@paulopires.co",
+    "url": "http://paulopires.co/"
   },
-  "homepage": "http://www.openshift.com/",
+  "homepage": "http://andyourass.com/",
   "repository": {
     "type": "git",
-    "url": "https://github.com/openshift/origin-server"
+    "url": "https://github.com/paulohp/andyourass"
   },
-
   "engines": {
-    "node": ">= 0.6.0",
+    "node": ">= 0.10.x",
     "npm": ">= 1.0.0"
   },
-
   "dependencies": {
-    "express": "~3.4.4"
+    "bluebird": "^2.1.2",
+    "cheerio": "^0.17.0",
+    "ejs": "*",
+    "express": "^4.4.1",
+    "lodash": "^2.4.1",
+    "puid": "^0.5.4",
+    "request": "^2.36.0",
+    "socket.io": "^1.0.4"
   },
   "devDependencies": {},
   "bundleDependencies": [],
-
   "private": true,
-  "main": "server.js"
+  "main": "app.js"
 }
