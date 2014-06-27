@@ -23,7 +23,7 @@
     "express": "^4.4.1",
     "lodash": "^2.4.1",
     "puid": "^0.5.4",
-    "request": "^2.36.0",
+    "request": "2.36.0",
     "socket.io": "^1.0.4"
   },
   "devDependencies": {},
